@@ -93,3 +93,17 @@ button {
 .contact-sns a:hover {
   color: rgba(0, 0, 0, 0.452);
 }
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+  .middle {
+    display: flex;
+    padding-top: 70vh;
+    padding-left: 5vh;
+  }
+}
