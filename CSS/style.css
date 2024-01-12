@@ -1,0 +1,95 @@
+hmtl {
+  font-size: 100%;
+}
+
+body {
+  color: white;
+  font-family: 'Gowun Dodum';
+}
+
+.title {
+  font-family: 'Song Myung';
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.container {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top {
+  background-image: url(/images/florist1.jpg);
+  background-color: rgba(0, 0, 0, 0.281);
+  background-blend-mode: darken;
+  text-align: center;
+  padding-top: 35vh;
+  background-position: center top;
+}
+
+.middle {
+  background-image: url(/images/delivery2.jpg);
+  display: flex;
+  padding-top: 20vh;
+  padding-left: 20vh;
+  background-position: center center;
+}
+
+.middle-2 {
+  background-image: url(/images/florist2.jpg);
+  background-position: center center;
+  text-align: center;
+  padding-top: 65dvh;
+}
+
+.btn {
+  background-color: plum;
+  font-size: 1.7rem;
+  padding: 0.5rem 2.5rem;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 1.1rem 0 2.25rem;
+}
+
+button {
+  font-size: 1.5rem;
+  background-color: plum;
+  display: block;
+  margin: 10px auto;
+}
+
+.bottom {
+  background-image: url(/images/florist3.jpg);
+  background-position: center center;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+
+.contact-sns {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-sns a {
+  display: inline-block;
+  margin: 0 0.4rem;
+  padding: 1rem 0 1rem 0;
+}
+
+.contact-sns a:hover {
+  color: rgba(0, 0, 0, 0.452);
+}
